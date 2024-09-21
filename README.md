@@ -1,5 +1,5 @@
 # Exchange-UserBrute
-验证用户是否存在与Exchange 
+Exchange  用户名爆破
 
 ## 使用方法
 **参数**
