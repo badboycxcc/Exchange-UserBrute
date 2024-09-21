@@ -32,7 +32,11 @@ Brute -u https://main.test.com -uf user.txt
 
 ## MD5
 ```
-fb3a9d98e78ddb8f31944aa3731f9d41  Exchange-UserBrute
 e65bfbc9bc3d35daaeaaadd93352a3bc  Exchange-UserBrute-Linux
-567e2d79ebabcb1d3a3a3612f0b68014  Exchange-UserBrute-Win
+fb3a9d98e78ddb8f31944aa3731f9d41  Exchange-UserBrute-Mac
+567e2d79ebabcb1d3a3a3612f0b68014  Exchange-UserBrute-Win.exe
 ```
+
+
+## 原理及参考项目
+- https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/msmail/onprem_enum.go
