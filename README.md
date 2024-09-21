@@ -1,5 +1,5 @@
 # Exchange-UserBrute
-验证Exchange 用户是否存在
+验证用户是否存在与Exchange 
 
 ## 使用方法
 **参数**
