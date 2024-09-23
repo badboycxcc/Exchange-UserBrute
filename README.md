@@ -32,9 +32,9 @@ Brute -u https://main.test.com -uf user.txt
 
 ## MD5
 ```
-e65bfbc9bc3d35daaeaaadd93352a3bc  Exchange-UserBrute-Linux
+51FBCBA0DE9B3B0340C2E77E29FB4E09  Exchange-UserBrute-Linux
 fb3a9d98e78ddb8f31944aa3731f9d41  Exchange-UserBrute-Mac
-567e2d79ebabcb1d3a3a3612f0b68014  Exchange-UserBrute-Win.exe
+550A8FC3908C5C5F0DCC1AD7A23AC52B  Exchange-UserBrute-Win.exe
 ```
 
 
