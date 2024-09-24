@@ -34,7 +34,7 @@ Brute -u https://main.test.com -uf user.txt
 ```
 51FBCBA0DE9B3B0340C2E77E29FB4E09  Exchange-UserBrute-Linux
 fb3a9d98e78ddb8f31944aa3731f9d41  Exchange-UserBrute-Mac
-550A8FC3908C5C5F0DCC1AD7A23AC52B  Exchange-UserBrute-Win.exe
+BDAA94D6C3947260017870A67FC9AEA8  Exchange-UserBrute-Win.exe
 ```
 
 
