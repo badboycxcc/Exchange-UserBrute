@@ -38,5 +38,14 @@ BDAA94D6C3947260017870A67FC9AEA8  Exchange-UserBrute-Win.exe
 ```
 
 
+
+
+
+## Todo
+**增加AutodiscoverV2 枚举方法**
+![image](https://github.com/user-attachments/assets/df361729-32fd-4532-8b48-bc21b8e8cb8a)
+
+
+
 ## 原理及参考项目
 - https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/msmail/onprem_enum.go
