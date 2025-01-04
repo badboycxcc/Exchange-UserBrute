@@ -1,7 +1,9 @@
 # Exchange-UserBrute
 Exchange  用户名爆破
 
-## 使用方法
+## 使用方法  
+![image](./截屏2025-01-04%20下午12.24.02.png)  
+ 
 **参数**
 ```
 Usage of ./ExchangeUserBrute-linux-arm64:
