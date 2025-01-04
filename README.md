@@ -19,6 +19,8 @@ Usage of ./ExchangeUserBrute-linux-arm64:
         用户名列表文件
 ```
 
+
+
 **单个验证**
 ```
 ExchangeUserBrute -u https://main.test.com -name Administrator
@@ -37,8 +39,27 @@ ExchangeUserBrute -u https://main.test.com -uf user.txt
 ExchangeUserBrute -u https://main.test.com -uf user.txt -b 2 -email test.com 
 ```
 
-***方法参考***
+> 方法参考
 ![image](https://github.com/user-attachments/assets/df361729-32fd-4532-8b48-bc21b8e8cb8a)
+
+
+**延时爆破与Cookie爆破优缺点**  
+```
+延时爆破
+	- 速度较慢
+	- 准确率不高
+	- 验证域用户
+
+Cookie 爆破
+	- 速度更快
+	- 准确度更高
+	- 只能验证邮箱
+```
+
+延时爆破和Cookie 爆破结果不一致 
+```
+延时爆破验证的是域用户，但部署每个域用户都会开启邮箱账号。
+```
 
 
 ## 更新日志
