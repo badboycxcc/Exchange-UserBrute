@@ -38,25 +38,26 @@ ExchangeUserBrute -u https://main.test.com -uf user.txt
 ![image](./截屏2025-01-04%20下午12.25.06.png)      
 
 
-**Cookie爆破方法：验证单个邮箱**
+**Cookie 爆破方法：验证单个邮箱**
 ```
 ExchangeUserBrute -u https://main.test.com -name Administrator -b 2 -email test.com 
 ```
 ![image](./截屏2025-01-04%20下午12.26.39.png)     
 
 
-**Cookie爆破方法：批量验证邮箱**
+**Cookie 爆破方法：批量验证邮箱**
 ```
 ExchangeUserBrute -u https://main.test.com -uf user.txt  -b 2 -email test.com 
 ```
 ![image](./截屏2025-01-04%20下午12.27.25.png)     
 
 
-> 方法参考
+> Cookie 爆破方法参考
+
 ![image](https://github.com/user-attachments/assets/df361729-32fd-4532-8b48-bc21b8e8cb8a)
 
 
-**延时爆破与Cookie爆破优缺点**  
+**延时爆破与Cookie 爆破优缺点**    
 ```
 延时爆破
 	- 速度较慢
@@ -69,7 +70,16 @@ Cookie 爆破
 	- 只能验证邮箱
 ```
 
-延时爆破和Cookie 爆破结果不一致 
+
+**延时爆破与Cookie 爆破时间对比**
+延时爆破：30个用户，用时27.31秒  
+![image](./截屏2025-01-04%20下午12.32.00.png)   
+
+Cookie 爆破：30个用户，用时4.47秒  
+![image](./截屏2025-01-04%20下午12.32.19.png)   
+
+
+**延时爆破和Cookie 爆破结果不一致问题**  
 ```
 延时爆破验证的是域用户，但部署每个域用户都会开启邮箱账号。
 ```
