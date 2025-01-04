@@ -23,23 +23,34 @@ Usage of ./ExchangeUserBrute-linux-arm64:
 
 
 
-**单个验证**
+**延时爆破方法：验证单个域用户**
 ```
 ExchangeUserBrute -u https://main.test.com -name Administrator
 ```
-<img width="882" alt="截屏2024-09-21 上午10 08 08" src="https://github.com/user-attachments/assets/e682ca54-3366-4360-8256-530528f29b85">
+![image](./截屏2025-01-04%20下午12.26.12.png)    
 
 
-**批量验证**
+
+**延时爆破方法：批量验证域用户**
 ```
 ExchangeUserBrute -u https://main.test.com -uf user.txt 
 ```
-<img width="799" alt="截屏2024-09-21 上午10 04 25" src="https://github.com/user-attachments/assets/1e193f4c-79df-4d35-af7b-66f5edd1e4a2">
+![image](./截屏2025-01-04%20下午12.25.06.png)      
 
-**Cookie爆破方法批量验证，速度更快**
+
+**Cookie爆破方法：验证单个邮箱**
 ```
-ExchangeUserBrute -u https://main.test.com -uf user.txt -b 2 -email test.com 
+ExchangeUserBrute -u https://main.test.com -name Administrator -b 2 -email test.com 
 ```
+![image](./截屏2025-01-04%20下午12.26.39.png)     
+
+
+**Cookie爆破方法：批量验证邮箱**
+```
+ExchangeUserBrute -u https://main.test.com -uf user.txt  -b 2 -email test.com 
+```
+![image](./截屏2025-01-04%20下午12.27.25.png)     
+
 
 > 方法参考
 ![image](https://github.com/user-attachments/assets/df361729-32fd-4532-8b48-bc21b8e8cb8a)
