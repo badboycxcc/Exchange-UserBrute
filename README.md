@@ -56,6 +56,8 @@ ExchangeUserBrute -u https://main.test.com -uf user.txt  -b 2 -email test.com
 
 ![image](https://github.com/user-attachments/assets/df361729-32fd-4532-8b48-bc21b8e8cb8a)
 
+PPT： https://static.ptsecurity.com/events/exch-vietnam.pdf
+
 
 **延时爆破与Cookie 爆破优缺点**    
 ```
